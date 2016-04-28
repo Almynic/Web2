@@ -1,0 +1,1 @@
+Ein Spy beobachtet eine Methode eines Objekts. In diesem konkreten Beispiel wird also die Methode "persistFavoriteStatus" von "song" beobachtet und zum Schluss ausgewertet, ob diese mit dem Parameter "true" aufgerufen wurde. So muss die noch nicht existierende Implementation von "persistFavoriteStatus" nicht getestet werden.

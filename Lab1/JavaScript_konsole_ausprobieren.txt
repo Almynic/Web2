@@ -1,0 +1,8 @@
+var string = "abc"
+string.length //3
+"2" == 2 //true, da Cast von "2" zu 2 durchgeführt wird
+"2" === 2 // false, da kein cast von "2" durchgeführt wird.
+"abc" === string // true
+"abc".length * 3 // 9
+"abc" + 3 // abc3
+"abc" * 3 //NaN

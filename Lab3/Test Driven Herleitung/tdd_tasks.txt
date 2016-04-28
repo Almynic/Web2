@@ -1,0 +1,26 @@
+1. Dekomposition des Problemes in Tasks - Dekomposition des Problemes in
+Tests
+
+2. Erstellen einer Methoden Signatur (Eingabeparameter String creditCardNo,
+Rueckgabewert boolen) - Eine Methode zur Validierung von Kreditkartennummern
+ist aufrufbar
+
+3. Eingabeparameter auf null überprüfen und wenn dies zutrifft false zurückgeben
+- Wird die Methode mit null als Eingabeparameter aufgerufen gibt
+sie false zurück
+
+4. Eingabeparameter auf leeren String überprüfen und wenn dies zutrifft false
+zurückgeben 
+
+5. Überprüfen, ob Kreditkarte überhaupt gültig ist mit Luhn-Algorithmus für Kreditkarten überprüfen, muss am schluss mit mod 10 ohne Rest aufgehen.
+6. Testen, ob die Kreditkarten Firma korrekt erkannt wird.
+7. Kredikartenart überprüfen (überprüfen, ob die Kreditkartenart richtig erkannt wird).
+8. Überprüfen, ob die Kredikarten-Nummer 16 Zahlen enthält --> Wenn nein Fehler ausgeben
+9. Überprüfen, ob Kreditkarte noch gültig ist. (Datum)
+10. Evtl. überprüfen, ob die Kreditkarte überhaupt existiert.
+11. Überprüfen, ob die Nummer keine falschen Zeichen enthält.
+12. Überprüfen, ob der Typ der Kreditkarte korrekt erkannt wird(Partnerkarte, Firmenkartem etc.)
+13. Überprüfen, ob die Kreditkartengesellschaft korrekt erkannt wird.
+14. Überprüfen ob Fehler an einzelnen Ziffer erkannt werden.
+15. Überprüfen, ob Vertauschungen erkannt werden.
+16. Überprüfen ob die Kontonummer erkannt wird.
