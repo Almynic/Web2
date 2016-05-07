@@ -2,7 +2,7 @@
 
 var taskList;
 
-$(document).ready(function() {
+$(function() {
 
   if (window.location.hash.length > 16) {
     TaskList.load(window.location.hash.substring(1), function(tl) {
@@ -14,9 +14,7 @@ $(document).ready(function() {
     taskList.createTask('');
     $('#taskList').html(taskList.render());
   }
-  taskList = new TaskList();
-  taskList.createTask('');
-  $('#taskList').html(taskList.render());
+
   $('#createTask').click(function(event) {
     event.preventDefault();
     var task = taskList.createTask('');
@@ -26,4 +24,5 @@ $(document).ready(function() {
   $('#saveTasks').click(function(event) {
     taskList.save();
   });
+
 });
